@@ -47,13 +47,13 @@ const Header = ({ connected }: { connected: boolean }) => {
                             </SelectTrigger>
                             <SelectContent className="uppercase">
                                 <SelectItem value="SF" className="uppercase">
-                                    San Francisco, CA
+                                    kilimani
                                 </SelectItem>
                                 <SelectItem value="BER" disabled>
-                                    Berkeley, CA
+                                    Juja
                                 </SelectItem>
                                 <SelectItem value="OAK" disabled>
-                                    Oakland, CA
+                                    Mathare
                                 </SelectItem>
                             </SelectContent>
                         </Select>

@@ -9,6 +9,7 @@ import {
     CircleEllipsisIcon,
     FireExtinguisher,
     Siren,
+    Plane,
 } from "lucide-react";
 
 import { Badge } from "../ui/badge";
@@ -207,6 +208,24 @@ const DetailsPanel = ({ call, handleResolve }: DetailsPanelProps) => {
                                 <Ambulance className="mr-2" />
                                 <p className="overflow-clip text-ellipsis">
                                     Paramedics
+                                </p>
+                            </Button>
+                            <Button
+                                variant="default"
+                                className="flex-1 items-center justify-center rounded-md bg-green-500 px-2 hover:bg-green-600"
+                                onClick={() => {
+                                    toast({
+                                        title: "Dispatched: Paramedics",
+                                        description: `Drone were dispatched${call?.location_name ? ` to ${call?.location_name}` : ""}.`,
+                                        variant: "paramedic",
+                                    });
+                                    setClicked((prev) => prev * 5);
+                                }}
+                                disabled={clicked % 5 === 0}
+                            >
+                                <Plane  className="mr-2" />
+                                <p className="overflow-clip text-ellipsis">
+                                    Drones
                                 </p>
                             </Button>
                         </div>
