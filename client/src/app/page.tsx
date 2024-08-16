@@ -177,7 +177,7 @@ export default function Home() {
                 </FadeIn>
             </div>
             {/* ending */}
-            <div
+            {/* <div
                 className={styles.container}
                 style={{
                     display: "flex",
@@ -225,7 +225,7 @@ export default function Home() {
                         </Button>
                     </Link>
                 </div>
-            </div>
+            </div>*/}
         </div>
     );
-}
+} 

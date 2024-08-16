@@ -59,7 +59,7 @@ const MESSAGES: Record<string, Call> = {
             { emotion: "Frustration", intensity: 0.3 },
         ],
         id: "1234",
-        location_name: "1234 Oak Street, Springfield",
+        location_name: "1234 juja, Springfield",
         location_coords: {
             lat: 37.867989,
             lng: -122.271507,
