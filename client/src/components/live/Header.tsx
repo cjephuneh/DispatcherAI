@@ -47,10 +47,10 @@ const Header = ({ connected }: { connected: boolean }) => {
                             </SelectTrigger>
                             <SelectContent className="uppercase">
                                 <SelectItem value="SF" className="uppercase">
-                                    kilimani
+                                    Thika
                                 </SelectItem>
                                 <SelectItem value="BER" disabled>
-                                    Juja
+                                    Statehouse 
                                 </SelectItem>
                                 <SelectItem value="OAK" disabled>
                                     Mathare

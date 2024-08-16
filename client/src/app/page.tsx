@@ -65,7 +65,7 @@ export default function Home() {
                                 <ArrowRight className="ml-2 h-4 w-4" />
                             </Button>
                             <h1 className="mb-4 text-5xl font-bold">
-                                The AI dispatcher eliminating 911 wait times
+                                The AI dispatcher eliminating 999 wait times
                             </h1>
                             <p className="mb-8 text-xl text-gray-600">
                                 Human-in-the-loop emergency response system
@@ -123,11 +123,11 @@ export default function Home() {
                     style={{ width: "50%", marginLeft: "600px" }}
                 >
                     <h1 className={styles.heading}>
-                        82% of 911 Call Centers are
+                        82% of 999 Call Centers are
                         <span className={styles.span}> Understaffed</span>
                     </h1>
                     <p className={styles.subheading}>
-                        According to Axios, the majority of Americans do not
+                        According to Axios, the majority of kenyans do not
                         have access to emergency services that should be
                         guaranteed to them.
                     </p>
